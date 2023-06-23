@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.css'
 import Counter from './components/counter';
-import myComponent from './components/myComponent';
+import Navigate from './Navigate';
 
 // import reportWebVitals from './reportWebVitals';
 // import Counters from './component/counters';
@@ -14,8 +14,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Counter />
-    {/* <myComponent /> */}
+    {/* <Counter /> */}
+    <Navigate />
   </React.StrictMode>
 );
 
